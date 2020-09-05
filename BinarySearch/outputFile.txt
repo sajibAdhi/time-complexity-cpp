@@ -1,0 +1,5 @@
+	<<<:Binary Search Time Complexity :>>>
+
+Value entered for search : 52 
+
+Search Time = 4.246000 sec

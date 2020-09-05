@@ -2,7 +2,7 @@
 *   Name: Sajib Adhikary
 *   ID  : CSE1901016103
 *   Section: 16A3
-*
+*   Bubble Sort Time Complexity
 */
 #include<iostream>
 #include<stdio.h>
@@ -52,8 +52,8 @@ int main()
     FILE *inputFile, *outputFile;
 
     //File Operation Starts Here
-    inputFile = fopen("inputFile.txt","r");
-    outputFile = fopen("outputFile.txt","a");
+    inputFile = fopen("../inputFile.txt","r");
+    outputFile = fopen("outputFile.txt","w");
 
     //Taking the amount of data's
     fscanf(inputFile,"%d",&amount);
